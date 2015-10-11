@@ -26,3 +26,4 @@ Configuration changes made:
 	Installed fail2ban, and changed maxretry to 6.  Ban time remains at 600 seconds.
 	Configured Apache to serve the Catalog app, and changed the settings on my Google Developer Console to allow the Amazon virtual machine's URL.
 	Set up SUDO to execute without prompting for a password.
+	
