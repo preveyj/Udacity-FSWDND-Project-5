@@ -5,6 +5,7 @@ SSH IP address: 52.26.83.98:2200
 Public URL: http://ec2-52-26-83-98.us-west-2.compute.amazonaws.com/
 
 Software installed (various prerequesites and dependencies not shown):
+
 	apache2
 	libapache2-mod-wsgi
 	postgresql
@@ -19,6 +20,7 @@ Software installed (various prerequesites and dependencies not shown):
 	fail2ban
 
 Configuration changes made:
+
 	Added a user called 'grader', gave it a password, added that user to the SUDO group, and copied root's SSH key to grader.
 	Installed the above-mentioned software along with their dependencies.
 	Changed the default SSH port to 2200.
